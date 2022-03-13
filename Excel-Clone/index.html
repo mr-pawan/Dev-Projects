@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excel</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">  
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="menu-container">
+        <select name="" id="" class="font-size">
+            <option value = "8">8</option>
+            <option value = "10">10</option>
+            <option value = "12">12</option>
+            <option value = "14">14</option>
+            <option value = "16">16</option>
+
+        </select>
+        <select name="" id="" class="font-family">
+            <option value="monospace">monospace</option>
+            <option value="fantasy">fantasy</option>
+            <option value="cursive">cursive</option>
+            <option value="sans-serif">sans-serif</option>
+            <option value="serif">serif</option>
+
+        </select>
+        <div class="text-format">
+            <div class="bold">
+                <i class="fa-solid fa-bold"></i>
+            </div>
+            <div class="italic">
+                <i class="fa-solid fa-italic"></i>
+            </div>
+            <div class="underline">
+                <i class="fa-solid fa-underline"></i>
+            </div>
+        </div>
+        <div class="align-format">
+            <div class="align-left">
+                <i class="fa-solid fa-align-left"></i>
+            </div>
+            <div class="align-center">
+                <i class="fa-solid fa-align-justify"></i>
+            </div>
+            <div class="align-right">
+                <i class="fa-solid fa-align-right"></i>
+            </div>
+        </div>
+        <div class="color-format">
+            <div class="font-color">
+                <span class="font-color-tooltip-text">Font Color</span>
+                <i class="fa-solid fa-font"></i>
+            </div>
+            <div class="background-color">
+                <span class="bg-color-tooltip-text">Background Color</span>
+                <i class="fa-solid fa-fill-drip"></i>
+            </div>
+        </div>
+
+        <div class="nos">
+            <div class="new">
+                <span class="new-tooltip-text">New File</span>
+                <i class="fa-solid fa-file"></i>
+            </div>
+            <div class="open">
+                <span class="open-tooltip-text">Open File</span>
+                <i class="fa-solid fa-folder-open"></i>
+            </div>
+            <div class="save">
+                <span class="save-tooltip-text">Save File</span>
+                <i class="fa-solid fa-file-arrow-down"></i>
+            </div>
+        </div>
+
+    </div>
+    <div class="formulla-container">
+        <input type="text" class="address-input">
+        <input type="text" class="formulla-input">
+    </div>
+    <div class="grid-container">
+        <div class="left-box"></div>
+        <div class="top-row"></div>
+        <div class="left-col"></div>
+        <div class="grid"  contenteditable="true"></div>
+    </div>
+    <div class="sheet-container">
+        <div class="add-sheet-btn">
+            <i class="fa-solid fa-plus"></i>
+        </div>
+        <div class="sheet-list">
+            <div class="sheet active" idx="0">sheet 1</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="grid.js"></script>
+    <script src="nos.js"></script>
+</body>
+</html>
